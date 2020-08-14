@@ -1,0 +1,38 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<h1>JSON FILE</h1>
+
+    <script>
+
+        const firends = {
+            name: "masud",
+            roll: 12,
+            lover: {
+                name:"jarina",
+                roll: 24
+            },
+            address: "satkhira"
+        }
+
+        const jsonPart = JSON.stringify(firends);
+        console.log(jsonPart);
+
+
+        const jsonexit = JSON.parse(jsonPart);
+        console.log(jsonexit);
+
+
+
+    </script>
+</body>
+</html>
